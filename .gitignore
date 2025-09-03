@@ -3,6 +3,26 @@ target/
 dist/
 *.so
 *.out
+client/node_modules/
+client/.next/
+client/dist/
+client/.cache/
 
+# Logs
 *.log
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
 .env
+.env.local
+.env.*.local
+
+*.json
+*.key
+*.pem
+*.p12
+*.der
